@@ -14,20 +14,21 @@
  *= require_self
  */
 
-.navbar-nav{
+.navbar-nav {
 	white-space: nowrap;
 	font-size: 18px;
 }
 
 
-.navbar{
+.navbar {
 	height: 50px;
 }
 
-.navbar-nav>li>a {
+.navbar-nav>li {
 	line-height: 34px;
 }
 
 .navbar-nav>li>a:hover {
+	background-color: lightgray;
 	color: dodgerblue;
 }
