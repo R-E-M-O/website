@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+.navbar-nav{
+	white-space: nowrap;
+	font-size: 18px;
+}
+
+
+.navbar{
+	height: 50px;
+}
+
+.navbar-nav>li>a {
+	line-height: 34px;
+}
+
+.navbar-nav>li>a:hover {
+	color: dodgerblue;
+}
