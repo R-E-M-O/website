@@ -22,33 +22,12 @@
 	flex-wrap: nowrap;
 }
 
-#nav-button1:hover {
+#nav-button:hover {
 	background-color: lightgray;
 	transition: all 0.2s ease-in-out;
 }
 
-#nav-button2:hover {
-	background-color: lightgray;
-	transition: all 0.2s ease-in-out;
-}
-
-#nav-button3:hover {
-	background-color: lightgray;
-	transition: all 0.2s ease-in-out;
-}
-
-#nav-button1 {
-	float: left;
-	border: none;
-	padding: 0px 8px;
-	margin-left: 0px;
-	background: #f8f9fa;
-	line-height: 50px;
-	flex-wrap: nowrap;
-	color: dodgerblue;
-}
-
-#nav-button2 {
+#nav-button {
 	float: left;
 	border: none;
 	padding: 0px 8px;
@@ -58,17 +37,6 @@
 	flex-wrap: nowrap;
 	color: dodgerblue;
 
-}
-
-#nav-button3 {
-	float: left;
-	border: none;
-	padding: 0px 8px;
-	margin-left: 0px;
-	background: #f8f9fa;
-	line-height: 50px;
-	flex-wrap: nowrap;
-	color: dodgerblue;
 }
 
 #paragraph-style {
