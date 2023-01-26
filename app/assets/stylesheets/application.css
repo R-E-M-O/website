@@ -14,21 +14,59 @@
  *= require_self
  */
 
-.navbar-nav {
+#navigation {
+	height: 50px;
+	align-self: start;
 	white-space: nowrap;
 	font-size: 18px;
+	flex-wrap: nowrap;
 }
 
-
-.navbar {
-	height: 50px;
-}
-
-.navbar-nav>li {
-	line-height: 34px;
-}
-
-.navbar-nav>li>a:hover {
+#nav-button1:hover {
 	background-color: lightgray;
+	transition: all 0.2s ease-in-out;
+}
+
+#nav-button2:hover {
+	background-color: lightgray;
+	transition: all 0.2s ease-in-out;
+}
+
+#nav-button3:hover {
+	background-color: lightgray;
+	transition: all 0.2s ease-in-out;
+}
+
+#nav-button1 {
+	float: left;
+	border: none;
+	padding: 0px 8px;
+	margin-left: 0px;
+	background: #f8f9fa;
+	line-height: 50px;
+	flex-wrap: nowrap;
+	color: dodgerblue;
+}
+
+#nav-button2 {
+	float: left;
+	border: none;
+	padding: 0px 8px;
+	margin-left: 0px;
+	background: #f8f9fa;
+	line-height: 50px;
+	flex-wrap: nowrap;
+	color: dodgerblue;
+
+}
+
+#nav-button3 {
+	float: left;
+	border: none;
+	padding: 0px 8px;
+	margin-left: 0px;
+	background: #f8f9fa;
+	line-height: 50px;
+	flex-wrap: nowrap;
 	color: dodgerblue;
 }

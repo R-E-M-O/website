@@ -1,12 +1,23 @@
-<nav class="navbar navbar-expand-lg sticky-top bg-light shadow mb-4">
+<nav class="navbar navbar-expand-lg sticky-top bg-light shadow mb-4" id="navigation">
     <div class="container-fluid">
-        <a class="navbar-brand">Omer Hyajneh</a>
-        <div class="navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li><a class="nav-link btn-lg btn-light mx-1 " href="index">Home</a></li>
-                <li><a class="nav-link btn-lg btn-light mx-2" href="/home/projects">My Projects</a></li>
-                <li><a class="nav-link btn-lg btn-light mx-1" href="/home/contact">Contact Me</a></li>
-            </ul>
-        </div>
+        <h1 class="navbar-brand">Omer Hyajneh</h1>
+                <button class="mx-1 btn-lg" onclick="goToIndex()" id="nav-button1">Home</button>
+                <button class="mx-1" onclick="goToProjects()" id="nav-button2">My Projects</button>
+                <button class="me-auto mx-1" onclick="goToContact()" id="nav-button3">Contact Me</button>
     </div>
 </nav>
+
+<script type="text/javascript" charset="utf-8">
+    function goToIndex() {
+        window.location.href = "index";
+    }
+    function goToProjects() {
+        window.location.href = "/home/projects";
+    }
+
+    function goToContact() {
+        window.location.href = "/home/contact";
+    }
+</script>
+
+
