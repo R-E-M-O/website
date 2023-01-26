@@ -70,3 +70,21 @@
 	flex-wrap: nowrap;
 	color: dodgerblue;
 }
+
+#paragraph-style {
+	text-indent: 4ch;
+	font-size: 18px;
+	margin: 25px 0;
+}
+
+#courseButtons {
+	margin: 2px 0;
+	width: 650px;
+	height: 40px;
+}
+
+#courseList {
+	margin-bottom: 25px;
+}
+
+

@@ -1,12 +1,36 @@
 <h1>About Me</h1>
-<p>
-  <span>Welcome to my webpage! My name is Omer Hyajneh. I'm a student studying Computer Science Engineering at the Ohio State University.
+<p id="paragraph-style">
+  Welcome to my webpage! My name is Omer Hyajneh. I'm a student studying Computer Science Engineering at the Ohio State University.
    I'm specializing in software engineering while practicing other fields in my free time, such as web development and
-   iOS development.</span>
+   iOS development.
 </p>
 
-<h1 style="margin-top: 50px">My Experience</h1>
-<p>
-  <span>
-  </span>
+<h1>My Experience</h1>
+<p id="paragraph-style">
+    As a 4th year (as of writing this) CSE major in college, I've had the opportunity to complete both the fundamentals
+    and some more in-depth classes in computer science, math, and more. Below is a list of classes I have taken
+    which I believe have had a strong impact on my growth as an aspiring software engineer.
 </p>
+
+<div class="container" id="courseList">
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://math.osu.edu/courses/math-1172')">MATH 1172 (Engineering Mathematics A)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://math.osu.edu/courses/math-2568')">MATH 2568 (Linear Algebra)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://www.coursicle.com/osu/courses/CSE/2501/')">CSE 2501 (Social, Ethical, and Professional Issues in Computing)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://physics.osu.edu/courses/cse-2421')">CSE 2421 (Introduction to Low-Level Programming)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://data-analytics.osu.edu/courses/cse/2431')">CSE 2431 (Introduction to Operating Systems)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://data-analytics.osu.edu/courses/cse/2321')">CSE 2321 (Discrete Structures)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://physics.osu.edu/courses/cse-2231')">CSE 2231 (Software Development and Design)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://data-analytics.osu.edu/courses/cse/3901')">CSE 3901 (Project: Design, Development, and Documentation of Web Applications)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://data-analytics.osu.edu/courses/cse/3461')">CSE 3461 (Computer Networking and Internet Technologies)</button><br>
+    <button type="button" class="btn btn-danger" id="courseButtons" onclick="redirect('https://stat.osu.edu/courses/stat-3470.01')">STATS 3470 (Introduction to Probability and Statistics for Engineers)</button><br>
+</div>
+<p id="paragraph-style">
+    Info about Digital Flagship/LIS team experience goes here
+</p>
+
+
+<script type="text/javascript" charset="utf-8">
+    function redirect(url) {
+      window.location.href= url;
+    }
+</script>
