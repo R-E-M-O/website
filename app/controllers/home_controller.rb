@@ -8,4 +8,6 @@ class HomeController < ApplicationController
   def contact
   end
 
+  def Hyajneh_Resume
+  end
 end
