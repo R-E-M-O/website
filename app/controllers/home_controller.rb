@@ -8,6 +8,7 @@ class HomeController < ApplicationController
   def contact
   end
 
-  def Hyajneh_Resume
+  def resume
+    send_file Rails.root.join('app', 'views', 'home', 'resume.pdf'), type: 'application/pdf', disposition: :inline
   end
 end
