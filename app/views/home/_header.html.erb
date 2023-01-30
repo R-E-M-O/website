@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg sticky-top bg-light shadow mb-4" id="navigation">
     <div class="container-fluid">
       <h1 class="navbar-brand">Omer Hyajneh</h1>
-      <a href="/home/index" class="mx-1" id="nav-button">Home</a>
-      <a href="/home/projects" class="mx-1" id="nav-button">My Projects</a>
-      <a href="/home/contact" class="me-auto mx-1" id="nav-button">Contact Me</a>
+      <%= link_to 'Home', '/home/index', class:'mx-1', id: 'nav-button' %>
+      <%= link_to 'My Projects', '/home/projects', class:'mx-1', id:'nav-button' %>
+      <%= link_to 'Contact Me', '/home/contact', class:'mx-1 me-auto', id:'nav-button' %>
     </div>
 </nav>
 
