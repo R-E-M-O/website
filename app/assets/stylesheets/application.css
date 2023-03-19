@@ -61,7 +61,8 @@
 }
 
 #sidebar {
-	width: 200px;
+	margin-top: 50px;
+	width: 150px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -70,5 +71,27 @@
 	background: #7386D5;
 	color: #fff;
 	transition: all 0.3s;
+}
+
+#collapse-sidebar-button {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+}
+
+.content {
+	margin-left: 150px;
+}
+
+.side-button {
+	float: left;
+	border: none;
+	margin-left: 0px;
+	background: #f8f9fa;
+	line-height: 50px;
+	flex-wrap: nowrap;
+	color: dodgerblue;
+	text-decoration: none;
 }
 

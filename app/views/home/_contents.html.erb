@@ -1,5 +1,31 @@
-<nav class="navbar flex-column sticky-left bg-light shadow mb-4" aria-orientation="vertical" id="sidebar">
-    <%= link_to "About Me", "#about-me", id: "nav-button"%>
-    <%= link_to "My Experience", "#my-experience", id: "nav-button" %>
+<nav class="d-flex flex-column bg-light p-3 shadow mb-4 flex-shrink-0" id="sidebar">
+  <%= button_tag "About Me", id: "scroll-to-about-me", class: "side-button" %>
+  <%= button_tag "My Experience", id: "scroll-to-my-experience", class: "side-button" %>
+
 </nav>
+
+<script>
+    const scrollToAboutMeButton = document.getElementById('scroll-to-about-me');
+    const scrollToMyExperienceButton = document.getElementById('scroll-to-my-experience');
+    scrollToAboutMeButton.addEventListener('click', function() {
+        scrollToSection('about-me');
+    });
+    scrollToMyExperienceButton.addEventListener('click', function() {
+        scrollToSection('my-experience');
+    });
+
+    function scrollToSection(id) {
+        const section = document.getElementById(id);
+        let paddingTop = 75;
+        if (id == "about-me") {
+            paddingTop = 100;
+        }
+        if (section) {
+            window.scrollTo({
+                top: section.offsetTop - paddingTop,
+                behavior: 'smooth'
+            });
+        }
+    }
+</script>
 
