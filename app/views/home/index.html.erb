@@ -1,36 +1,40 @@
-<h1>About Me</h1>
-<p id="paragraph-style">
-  Welcome to my webpage! My name is Omer Hyajneh. I'm a student studying Computer Science Engineering at the Ohio State University.
-   I'm currently specializing in software engineering while practicing other fields in my free time, such as web development and
-   iOS development, and it is highly likely I will pursue AI in the future.
-</p>
+<%=render 'home/contents'%>
 
-<h1>My Experience</h1>
-<p id="paragraph-style">
+<div class="contents">
+  <h1 id="about-me">About Me</h1>
+  <p id="paragraph-style">
+    Welcome to my webpage! My name is Omer Hyajneh. I'm a student studying Computer Science Engineering at the Ohio State University.
+    I'm currently specializing in software engineering while practicing other fields in my free time, such as web development and
+    iOS development, and it is highly likely I will pursue AI in the future.
+  </p>
+
+  <h1 id="my-experience">My Experience</h1>
+  <p id="paragraph-style">
     As a 4th year (as of writing this) CSE major in college, I've had the opportunity to complete both the fundamentals
     and some more in-depth classes in computer science, math, and more. Below is a list of classes I have taken
     which I believe have had a strong impact on my growth as an aspiring software engineer.
-</p>
+  </p>
 
-<div class="container" id="courseList">
-  <%= link_to 'MATH 1172 (Engineering Mathematics A)', 'https://math.osu.edu/courses/math-1172', class:'btn btn-danger', id:'courseButtons'%><br>
-  <%= link_to 'MATH 2568 (Linear Algebra)', 'https://math.osu.edu/courses/math-2568', class:'btn btn-danger', id:'courseButtons'%><br>
-  <%= link_to 'CSE 2501 (Social, Ethical, and Professional Issues in Computing)', 'https://www.coursicle.com/osu/courses/CSE/2501/', class:'btn btn-danger', id:'courseButtons'%><br>
-  <%= link_to "CSE 2421 (Introduction to Low-Level Programming)", "https://physics.osu.edu/courses/cse-2421", class: "btn btn-danger", id: "courseButtons" %><br>
-  <%= link_to "CSE 2431 (Introduction to Operating Systems)", "https://data-analytics.osu.edu/courses/cse/2431", class: "btn btn-danger", id: "courseButtons" %><br>
-  <%= link_to "CSE 2321 (Discrete Structures)", "https://data-analytics.osu.edu/courses/cse/2321", class: "btn btn-danger", id: "courseButtons" %><br>
-  <%= link_to "CSE 2231 (Software Development and Design)", "https://physics.osu.edu/courses/cse-2231", class: "btn btn-danger", id: "courseButtons" %><br>
-  <%= link_to "CSE 3901 (Project: Design, Development, and Documentation of Web Applications)", "https://data-analytics.osu.edu/courses/cse/3901", class: "btn btn-danger", id: "courseButtons" %><br>
-  <%= link_to "CSE 3461 (Computer Networking and Internet Technologies)", "https://data-analytics.osu.edu/courses/cse/3461", class: "btn btn-danger", id: "courseButtons" %><br>
-  <%= link_to "STATS 3470 (Introduction to Probability and Statistics for Engineers)", "https://stat.osu.edu/courses/stat-3470.01", class: "btn btn-danger", id: "courseButtons" %><br>
-</div>
-<br>
-
-<h3>Digital Flagship - Student Assistant</h3>
-<p id="paragraph-style">
-  As a student assistant at Digital Flagship, I've had the opportunity to learn Swift, the programming language designed by Apple,
-  and to use my knowledge to build independent projects along with designing a Swift programing course that our team licensed out to
-  reputable universities across the nation.
+  <div class="container" id="courseList">
+    <%= link_to 'MATH 1172 (Engineering Mathematics A)', 'https://math.osu.edu/courses/math-1172', class:'btn btn-danger', id:'courseButtons'%><br>
+    <%= link_to 'MATH 2568 (Linear Algebra)', 'https://math.osu.edu/courses/math-2568', class:'btn btn-danger', id:'courseButtons'%><br>
+    <%= link_to 'CSE 2501 (Social, Ethical, and Professional Issues in Computing)', 'https://www.coursicle.com/osu/courses/CSE/2501/', class:'btn btn-danger', id:'courseButtons'%><br>
+    <%= link_to "CSE 2421 (Introduction to Low-Level Programming)", "https://physics.osu.edu/courses/cse-2421", class: "btn btn-danger", id: "courseButtons" %><br>
+    <%= link_to "CSE 2431 (Introduction to Operating Systems)", "https://data-analytics.osu.edu/courses/cse/2431", class: "btn btn-danger", id: "courseButtons" %><br>
+    <%= link_to "CSE 2321 (Discrete Structures)", "https://data-analytics.osu.edu/courses/cse/2321", class: "btn btn-danger", id: "courseButtons" %><br>
+    <%= link_to "CSE 2231 (Software Development and Design)", "https://physics.osu.edu/courses/cse-2231", class: "btn btn-danger", id: "courseButtons" %><br>
+    <%= link_to "CSE 3901 (Project: Design, Development, and Documentation of Web Applications)", "https://data-analytics.osu.edu/courses/cse/3901", class: "btn btn-danger", id: "courseButtons" %><br>
+    <%= link_to "CSE 3461 (Computer Networking and Internet Technologies)", "https://data-analytics.osu.edu/courses/cse/3461", class: "btn btn-danger", id: "courseButtons" %><br>
+    <%= link_to "STATS 3470 (Introduction to Probability and Statistics for Engineers)", "https://stat.osu.edu/courses/stat-3470.01", class: "btn btn-danger", id: "courseButtons" %><br>
+  </div>
   <br>
-  For more information on the details of my responsibilities in this position, please refer to my <%= link_to 'resume', 'resume.pdf'%>.
-</p>
+
+  <h3>Digital Flagship - Student Assistant</h3>
+  <p id="paragraph-style">
+    As a student assistant at Digital Flagship, I've had the opportunity to learn Swift, the programming language designed by Apple,
+    and to use my knowledge to build independent projects along with designing a Swift programing course that our team licensed out to
+    reputable universities across the nation.
+    <br>
+    For more information on the details of my responsibilities in this position, please refer to my <%= link_to 'resume', 'resume.pdf'%>.
+  </p>
+</div>
