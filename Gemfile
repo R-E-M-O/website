@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.2"
+ruby "3.2.2"
 
 gem "logger"  # <-- good practice to put it up here
-gem "nokogiri", ">= 1.15"
-
+gem "nokogiri", "~> 1.15"
 gem "rails", "~> 7.0.0"
 gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
