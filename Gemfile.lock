@@ -297,6 +297,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  logger
   nokogiri
   puma (~> 5.0)
   rails (~> 7.0.0)
