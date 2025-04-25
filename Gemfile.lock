@@ -100,7 +100,7 @@ GEM
     ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86_64-darwin)
-    ffi (1.17.2-x86_64-linux-gnu)
+    ffi (1.17.2-x86_64-linux)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -151,7 +151,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-linux-gnu)
+    nokogiri (1.18.8-x86_64-linux)
       racc (~> 1.4)
     parallel (1.27.0)
     parser (3.3.8.0)
@@ -282,10 +282,11 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.7.2)
+    zeitwerk (2.6.18)
 
 PLATFORMS
   arm64-darwin-23
+  arm64-darwin-24
   x64-mingw-ucrt
   x86_64-darwin-22
   x86_64-linux
@@ -298,7 +299,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   logger
-  nokogiri
+  nokogiri (>= 1.15)
   puma (~> 5.0)
   rails (~> 7.0.0)
   rubocop
@@ -312,7 +313,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.1.2p20
 
 BUNDLED WITH
    2.3.7
